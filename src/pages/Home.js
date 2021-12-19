@@ -10,7 +10,7 @@ class Home extends React.Component {
                 {/*</div><!--NAVBAR-->*/}
                 <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
                     <div class="container py-3">
-                        <a href="#" class="navbar-brand">
+                        <a href="/" class="navbar-brand">
                             <img src="assets/img/Imagens/car-icon.png" alt="Imovi" />
                             <span>LUXCAR</span>
                         </a>
@@ -84,7 +84,7 @@ class Home extends React.Component {
                                 <img src="assets/img/Imagens/Imagens-de-carros/Carro3.jpeg" alt="Carro3" class="d-block w-100" />
                                 <div class="carousel-caption">
                                     <h5>Carros para quem tem o prazer de viver bem</h5>
-                                    <a href="#" class="btn btn-dark">Conheça nossas facilidades</a>
+                                    <a href="/" class="btn btn-dark">Conheça nossas facilidades</a>
                                 </div>
                             </div>
                             <div class="carousel-item">

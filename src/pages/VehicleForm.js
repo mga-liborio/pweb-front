@@ -52,10 +52,10 @@ function VehicleForm(){
         (async () => {
           Api.get('/categories/').then( response => {
             setCategories(response.data);
-            console.log(campos);
+            console.log(categories);
           });
         })();
-    }, []);
+    }, [categories]);
 
 
     return(

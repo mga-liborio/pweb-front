@@ -25,7 +25,7 @@ function CarList() {
         console.log(campos);
       });
     })();
-  }, []);
+  }, [campos]);
 
   return (
     <Container id="select-car" className="d-grid h-100">
